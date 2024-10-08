@@ -1,0 +1,27 @@
+:root {
+    --champagne-color: #FAEBD7;
+    --tidewater-color: #2F4F4F;
+    --fortuna-color: #DAA520;
+}
+
+.section-title {
+    background-color: var(--champagne-color);
+}
+
+.card {
+    transition: 0.3s;
+    cursor: pointer;
+}
+
+.card:hover {
+    scale: 1.02;
+    transition: 0.3s;
+}
+
+.card-body {
+    background-color: var(--champagne-color);
+}
+
+/* .modal-content {
+    background-color: var(--champagne-color);
+} */
